@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b08083-8729-41ce-b157-eb025bb61b8e" name="Changes" comment="prep">
+    <list default="true" id="18b08083-8729-41ce-b157-eb025bb61b8e" name="Changes" comment="select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -74,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1732882506897</updated>
       <workItem from="1732882508076" duration="2104000" />
-      <workItem from="1733049481021" duration="608000" />
+      <workItem from="1733049481021" duration="1010000" />
+      <workItem from="1733428536244" duration="5555000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -92,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732883141306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prep">
+      <option name="closed" value="true" />
+      <created>1733050365975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733050365975</updated>
+    </task>
+    <task id="LOCAL-00004" summary="select">
+      <option name="closed" value="true" />
+      <created>1733050427625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733050427625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="prep" />
+    <MESSAGE value="select" />
+    <option name="LAST_COMMIT_MESSAGE" value="select" />
   </component>
 </project>

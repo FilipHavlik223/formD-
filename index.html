@@ -8,30 +8,52 @@
     <title>Registrace</title>
 </head>
 <body>
-<form action="index.html" method="post"></form>
-<label for="fullname">Celé jméno</label>
-<br>
-<input type="text" name="Celé jméno" id="fullname">
-<br>
-<label for="mail">Email</label>
-<br>
-<input type="email" name="mail" id="mail">
-<br>
-<label for="favorite day">Oblíbená den</label>
-<select name="Oblíbená barva" id="favorite day">
-    <optgroup label="všední dny">
-        <option>Pondělí</option>
-        <option>Úterý</option>
-        <option>Středa</option>
-        <option>Čtvrtek</option>
-        <option>Pátek</option>
-    </optgroup>
-    <optgroup label="Víkend">
-        <option>Sobota</option>
-        <option>Neděla</option>
-    </optgroup>
-</select>
-
+<form action="index.html" method="post" style="text-align: center">
+    <label for="fullname">Celé jméno</label>
+    <br>
+    <input type="text" name="Celé jméno" id="fullname" required maxlength="50"
+           style="width: 250px;padding: 10px;border: 1px solid darkgray;border-radius: 4px;font-size: 12px">
+    <br>
+    <br>
+    <label for="mail">Email</label>
+    <br>
+    <input type="email" name="email" id="mail" required
+           style="width: 250px;padding: 10px;border: 1px solid darkgray;border-radius: 4px;font-size: 12px">
+    <br>
+    <br>
+    <label for="favorite day">Oblíbený den</label>
+    <select name="Oblíbeny den" id="favorite day" required>
+        <optgroup label="všední dny">
+            <option>Pondělí</option>
+            <option>Úterý</option>
+            <option>Středa</option>
+            <option>Čtvrtek</option>
+            <option>Pátek</option>
+        </optgroup>
+        <optgroup label="Víkend">
+            <option>Sobota</option>
+            <option>Neděle</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <label for="password">Heslo:</label>
+    <br>
+    <input type="password" name="password" id="password" required minlength="8"
+           style="width: 250px;padding: 10px;border: 1px solid darkgray;border-radius: 4px;font-size: 12px">
+    <br>
+    <br>
+    <label for="password2">Heslo znovu:</label>
+    <br>
+    <input type="password" name="password2" id="password2" required minlength="8"
+           style="width: 250px;padding: 10px;border: 1px solid darkgray;border-radius: 4px;font-size: 12px">
+    <br>
+    <br>
+    <input type="submit" value="Sign Up"
+           style="background-color: royalblue;color: white; width: 250px;padding: 10px; border: 1px solid royalblue;border-radius: 4px; font-size: 15px">
+    <br>
+    <span>Have an account?    <a href="#">login</a></span>
+</form>
 
 </body>
 </html>
